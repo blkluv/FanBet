@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.fanbet.app',
-  appName: 'Fanbet',
+  appName: 'Fanad',
   webDir: 'out',
   bundledWebRuntime: false,
   server: {

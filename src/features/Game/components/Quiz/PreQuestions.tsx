@@ -26,7 +26,7 @@ const PreQuestions = () => {
       const data = await axios
         .get(
           Capacitor.isNativePlatform()
-            ? `https://fanbet.vercel.app${apiEndpoint}`
+            ? `https://fanad.arvrtise.com/${apiEndpoint}`
             : apiEndpoint,
           {
             params: { flowid: preQuestions.NFTFlowId },

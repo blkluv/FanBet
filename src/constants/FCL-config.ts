@@ -19,7 +19,7 @@ const {
 } = NETWORKS['testnet' as keyof typeof NETWORKS];
 
 // const iconUrl = window.location.origin + '/images/image-placeholder.png';
-const appTitle = process.env.NEXT_PUBLIC_APP_NAME || 'FANBET';
+const appTitle = process.env.NEXT_PUBLIC_APP_NAME || 'FANAD';
 
 export const mainnetConfig = {
   'app.detail.title': appTitle,

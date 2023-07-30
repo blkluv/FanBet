@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 const defaultMeta = {
-  title: 'FANBET',
-  siteName: 'FANBET',
+  title: 'FANAD',
+  siteName: 'FANAD',
   description:
     'Compete against other players on a sports trivia to gain tokens and unique NFTs of your favorite players.',
   url: 'https://open-graph-generator-jp.vercel.app',
@@ -55,7 +55,7 @@ export default function Seo(props: SeoProps) {
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:site' content='JeremyTheWizard' />
+      <meta name='twitter:site' content='Fan Ads' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />
